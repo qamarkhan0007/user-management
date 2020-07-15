@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+const baseUrl = "https://reqres.in";
 /**
  * Method for calling APIs.
  * @param {String} method : Method using which the api is called(GET, POST, etc.)
@@ -13,7 +14,7 @@ const call = (method, url, obj = {}) => {
     //let token;
     let args = {
       method: method,
-      url: url,
+      url: baseUrl+url,
       data: obj
     }
     try {

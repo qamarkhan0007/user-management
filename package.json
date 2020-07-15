@@ -2,10 +2,6 @@
   "name": "react-qamar",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "npm": "6.13.4",
-    "node": "10.18.1"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -38,6 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://reqres.in"
+  }
 }
